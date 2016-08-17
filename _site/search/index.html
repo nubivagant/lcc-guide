@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>Search results</title>
+</head>
+<body>
+<form action="/lcc-guide/search/" class="search-interface">
+  <div class="field">
+    <label>
+      <span class="label-text">Search</span>
+      <input type="search" id="search-input" name="q"
+       placeholder="Search - click or press '/'">
+    </label>
+  </div>
+  <button type="submit">Search</button>
+</form>
+
+<ol id='search-results'></ol>
+</body>
+</html>
+<script>JEKYLL_PAGES_API_SEARCH_BASEURL = '/lcc-guide';</script>
+<script src="/lcc-guide/js/my-search-bundle.js"></script>
+<script async src="/lcc-guide/assets/js/search-bundle.js"></script>
