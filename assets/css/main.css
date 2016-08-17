@@ -527,3 +527,10 @@ Mobile Styles
     }
 
 }
+
+/*
+Search default from 18F
+==================================
+*/
+
+@import "jekyll_pages_api_search";
