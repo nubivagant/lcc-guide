@@ -1,19 +1,19 @@
-importScripts( '/lcc-guide/cache-polyfill.js' );
+importScripts( '/cache-polyfill.js' );
 
 var filesToCache = [
   // root
-  '/lcc-guide/',
-  '/lcc-guide/index.html',
+  '/',
+  '/index.html',
   // css
-  '/lcc-guide/assets/css/main.css',
-  '/lcc-guide/assets/css/normalize.css',
-  '/lcc-guide/assets/css/syntax.css',
+  '/assets/css/main.css',
+  '/assets/css/normalize.css',
+  '/assets/css/syntax.css',
   // images
-  '/lcc-guide/assets/img/octocat.png',
+  '/assets/img/octocat.png',
   // pages
-  '/lcc-guide/jekyll/update/2013/11/20/welcome-to-jekyll.html','/lcc-guide/example_page/',
+  '/jekyll/update/2013/11/20/welcome-to-jekyll.html','/example_page/',
   // posts
-  '/lcc-guide/jekyll/update/2013/11/20/welcome-to-jekyll.html',
+  '/jekyll/update/2013/11/20/welcome-to-jekyll.html',
 ];
 
 self.addEventListener( 'install', function( e ) {
