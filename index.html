@@ -3,8 +3,8 @@ layout: default
 ---
 
 
-{% capture index %}{% include index.md %}{% endcapture %}
-{{ index.md | markdownify }}
+{% capture index %}{% include index.html %}{% endcapture %}
+{{ index | markdownify }}
 
 {% if site.repos %}
 <section id="repositories">
