@@ -12,6 +12,9 @@ collections:
 name: LCC Digital Services
 subtitle: Guides for our online services
 
+# To run locally:
+# bundle exec jekyll serve --watch --baseurl ''
+
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
@@ -34,12 +37,18 @@ navigation:
 - text: Home
   url: ./
   internal: true
-- text: Example Page
-  url: example_page/
+- text: CMS user guide
+  url: cms-user-guide/
   internal: true
-- text: DOCter Repo
-  url: https://github.com/cfpb/DOCter
-  internal: false
+- text: Key principles
+  url: key-principles/
+  internal: true
+- text: Navigation
+  url: navigation/
+  internal: true
+- text: Writing good content
+  url: writing-good-content/
+  internal: true
 
 # Repo list
 # List repos that you would like to appear on the homepage here
